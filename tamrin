@@ -1,3 +1,4 @@
+# calculater
 num1 = int(input("Enter number one:\n "))
 num2 = int(input("Enter number two:\n "))
 
@@ -18,3 +19,12 @@ elif operation == '/':
     print(f"{num1}/{num2}={result4}")
 else:
     print('I dont know about the other oprations. sorry')
+    
+    
+
+# BMI
+weight = float(input('Enter your weight: \n'))
+height = float(input('Enter your height: \n'))
+BMI = weight / height**2
+print( f'Your BMI is:{BMI}')
+
